@@ -2,16 +2,12 @@
 <html lang="ru">
 
 <head>
-	<title>Barbershop Rufford</title>
+	<title>Barbershop Under</title>
 	<meta charset="utf-8">
 	<link rel="icon" type="image/png" href="images/apple-touch-icon.png" sizes="16x16">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
-	<!-- build:css css/main.css-->
-	<!--<link rel="stylesheet" href="libs/fullpage/fullpage.min.css">-->
 	<link rel="stylesheet" href="css/main.css">
-	<!-- endbuild-->
-	<!-- Google tag (gtag.js) - Google Analytics -->
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-218793071-1">
 	</script>
 	<script>
@@ -25,7 +21,7 @@
 
 <body class="page">
 	<header class="header">
-		<img src="images/logo.jpg" alt="#" class="header-logo">
+		<img data-anchor=".first" src="images/logo.jpg" class="header-logo menu-list-item">
 		<div class="burger-wrap">
 			<span class="burger-item"></span>
 			<span class="burger-item"></span>
@@ -34,7 +30,6 @@
 		<div class="menu-wrap">
 			<ul class="menu-list">
 				<li class="menu-list-item" data-anchor=".second">Ціни на послуги</li>
-				<!-- <li class="menu-list-item" data-anchor=".three">Про нас</li> -->
 				<li class="menu-list-item" data-anchor=".four">Наші барбери</li>
 				<li class="menu-list-item" data-anchor=".five">Контакти</li>
 			</ul>
@@ -48,17 +43,19 @@
 	</header>
 
 	<div id="fullpage">
-		<section class="section first">
-			<div class="container">
-				<div class="first-txt">
-					<span>Barbershop Under</span>
-					Територія чоловічого стилю
+		<section class="section first" id="first">
+			<div class="section first">
+				<div class="container">
+					<div class="first-txt">
+						<span>Barbershop Under</span>
+						Територія чоловічого стилю
+					</div>
+					<button class="btn first-btn ms_booking">
+						<!-- src="//w219923.yclients.com/widgetJS" -->
+						<script type="text/javascript" src="#" charset="UTF-8"></script>
+						Записатися на стрижку
+					</button>
 				</div>
-				<button class="btn first-btn ms_booking">
-					<!-- src="//w219923.yclients.com/widgetJS" -->
-					<script type="text/javascript" src="#" charset="UTF-8"></script>
-					Записатися на стрижку
-				</button>
 			</div>
 		</section>
 		<section class="section second">
@@ -170,9 +167,6 @@
 
 						</div>
 
-
-
-
 						<div class="services-item-field">
 							<span class="services-item-field-txt">
 								Чоловіче братство (Батько та Син)
@@ -182,11 +176,6 @@
 								600/700/850
 							</span>
 						</div>
-
-
-
-
-
 					</div>
 				</div>
 			</div>

@@ -399,9 +399,6 @@ button {
 }
 
 .first {
-	background: url("../images/1.jpg") center no-repeat;
-	background-size: cover;
-	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -419,7 +416,13 @@ button {
 	flex-wrap: no-wrap;
 }
 
-.first::after {
+div.first {
+	background: url("../images/1.jpg") center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+div.first::after {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -644,6 +647,10 @@ button {
 
 .menu-list-item:hover {
 	border-bottom: 2px solid #fff;
+}
+
+img.menu-list-item {
+	border-bottom: none !important;
 }
 
 .menu-links {
@@ -1474,4 +1481,52 @@ form {
 .telephone:hover {
 	color: #a99079;
 	text-decoration: none;
+}
+
+
+.first .container {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+.first-txt {
+	animation: slide-up 3.0s ease forwards;
+
+}
+
+.first-btn {
+	animation: slide-up 4.0s ease forwards;
+}
+
+div.section.first {
+	animation: scale-out 2.0s ease forwards;
+}
+
+
+@keyframes slide-up {
+	0% {
+		transform: translateY(100vh);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes scale-out {
+	0% {
+		transform: scale(0.0);
+	}
+
+	100% {
+		transform: scale(1.0);
+	}
 }
