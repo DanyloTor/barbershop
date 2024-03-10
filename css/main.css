@@ -1462,3 +1462,16 @@ form {
 	background: url('../images/test.jpg') 50% 50% no-repeat;
 	background-size: cover;
 }
+
+
+.telephone {
+	margin: 0 !important;
+	display: block;
+	width: 100%;
+	color: #a99079;
+}
+
+.telephone:hover {
+	color: #a99079;
+	text-decoration: none;
+}
