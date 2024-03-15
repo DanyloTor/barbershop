@@ -1493,9 +1493,6 @@ form {
 	justify-content: center;
 }
 
-
-
-
 .first-txt {
 	animation: slide-up 3.0s ease forwards;
 
@@ -1506,7 +1503,7 @@ form {
 }
 
 div.section.first {
-	animation: scale-out 2.0s ease forwards;
+	animation: scale-out 1.0s ease forwards;
 }
 
 
