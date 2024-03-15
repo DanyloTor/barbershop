@@ -520,7 +520,6 @@ div.first::after {
 
 .header-logo {
 	max-width: 95px;
-	border-radius: 100%;
 }
 
 @media (max-width: 768px) {
