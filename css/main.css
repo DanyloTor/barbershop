@@ -1502,7 +1502,7 @@ form {
 }
 
 div.section.first {
-	animation: scale-out 1.0s ease forwards;
+	animation: scale-out .5s ease forwards;
 }
 
 
