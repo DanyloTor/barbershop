@@ -1493,12 +1493,11 @@ form {
 }
 
 .first-txt {
-	animation: slide-up 3.0s ease forwards;
-
+	animation: slide-up 2.0s ease forwards;
 }
 
 .first-btn {
-	animation: slide-up 4.0s ease forwards;
+	animation: slide-up 3.0s ease forwards;
 }
 
 div.section.first {
