@@ -302,7 +302,7 @@ button {
 }
 
 @font-face {
-	font-family: "GothamProLight";
+	font-family: "Merriweather", serif;
 	src: url("../fonts/GothamPro-Light.ttf");
 	font-style: normal;
 	font-weight: normal;
@@ -417,9 +417,22 @@ button {
 }
 
 div.first {
-	background: url("../images/1.jpg") center no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
 	background-size: cover;
 	position: relative;
+}
+
+div.first::before {
+	content: "";
+	background: url("../images/test_1.JPG") center no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.8;
+	z-index: -1;
 }
 
 div.first::after {
@@ -434,7 +447,7 @@ div.first::after {
 
 .first-txt {
 	color: #ffffff;
-	font-family: "GothamProLight", sans-serif;
+	font-family: 'Merriweather', serif;
 	font-size: 40px;
 	letter-spacing: 2px;
 	text-align: center;
@@ -486,9 +499,10 @@ div.first::after {
 }
 
 .first-btn {
-	background-color: #a99079;
 	color: #fff;
 	margin: 0 auto;
+	padding: 0 10px;
+	border: 2px solid #fff;
 }
 
 .first-btn:hover {
@@ -746,7 +760,8 @@ img.menu-list-item {
 }
 
 .second {
-	background: url("../images/2.jpg") top no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	background-size: cover;
 	position: relative;
 	display: -webkit-box;
@@ -764,6 +779,19 @@ img.menu-list-item {
 	flex-direction: row;
 	-ms-flex-wrap: no-wrap;
 	flex-wrap: no-wrap;
+}
+
+.second::before {
+	content: "";
+	background: url("../images/test_2.jpg") top no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.8;
+	z-index: -1;
 }
 
 .title {
@@ -1495,6 +1523,11 @@ form {
 
 .first-txt {
 	animation: slide-up 2.0s ease forwards;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
 .first-btn {
