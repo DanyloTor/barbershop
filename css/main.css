@@ -1528,9 +1528,9 @@ div.section.first {
 	width: 100%;
 	margin: 0 180px;
 	padding: 0 10px;
-	border: 2px solid #bda27e !important;
+	border: 2px solid #fff !important;
     border-radius: 10px;
-    box-shadow: 0 0 10px #bda27e !important;
+    box-shadow: 0 0 10px #fff !important;
 }
 
 .price-section .dots {
@@ -1543,7 +1543,7 @@ div.section.first {
 	}
 
 	.price-section .services-item-field-txt {
-		font-size: 15px !important;
+		font-size: 14px !important;
 	}
 }
 
