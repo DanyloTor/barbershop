@@ -342,7 +342,7 @@ button {
 }
 
 .btn:hover {
-	background-color: #c4ac97;
+	background-color: #000;
 	color: #fff;
 }
 
@@ -506,7 +506,7 @@ div.first::after {
 }
 
 .first-btn:hover {
-	background-color: #c4ac97;
+	background-color: #000;
 }
 
 .header {
@@ -1522,6 +1522,35 @@ form {
 
 div.section.first {
 	animation: scale-out .5s ease forwards;
+}
+
+.contact-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.contact-wrapper .location {
+	filter: brightness(0) saturate(100%) invert(79%) sepia(72%) saturate(7486%) hue-rotate(336deg) brightness(85%) contrast(99%);
+}
+
+.contact-wrapper img {
+	width: 25px;
+}
+
+.bottom-button {
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 768px) {
+	.contact-wrapper {
+		justify-content: center;
+	}
+
+	.telephone {
+		width: fit-content;
+	}
 }
 
 .price-section {
