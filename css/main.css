@@ -417,7 +417,7 @@ button {
 }
 
 div.first {
-    background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	background-size: cover;
 	position: relative;
 }
@@ -759,7 +759,7 @@ img.menu-list-item {
 }
 
 .second {
-    background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	background-size: cover;
 	position: relative;
@@ -1541,6 +1541,10 @@ div.section.first {
 	align-items: center;
 }
 
+.contact-wrapper-item.location-wrapper {
+	cursor: pointer;
+}
+
 .contact-wrapper .location {
 	filter: brightness(0) saturate(100%) invert(79%) sepia(72%) saturate(7486%) hue-rotate(336deg) brightness(85%) contrast(99%);
 }
@@ -1569,12 +1573,19 @@ div.section.first {
 	margin: 0 180px;
 	padding: 0 10px;
 	border: 2px solid #fff !important;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #fff !important;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #fff !important;
 }
 
 .price-section .dots {
 	background-size: 1px;
+}
+
+.price-section .services-item-field-txt {
+	color: #fff !important;
+	-webkit-text-fill-color: #fff !important;
+	opacity: 1 !important;
+	-webkit-opacity: 1 !important;
 }
 
 @media (max-width: 1024px) {

@@ -18,14 +18,13 @@ $(document).ready(function () {
 		let position = $(this).data('position')
 		$('.line').css('left', position)
 	})
-	$('.menu-list-item').click(function (e) {
+	$('.menu-list-item, .contact-wrapper-item').click(function (e) {
 		e.preventDefault()
 		let anchor = $(this).data('anchor')
 		$('html, body').animate({ scrollTop: $(anchor).offset().top }, 500)
 		$('.menu-wrap').removeClass('active')
 		$('.burger-wrap').removeClass('active')
 		$('.header-logo').removeClass('margin')
-
 	});
 
 });
