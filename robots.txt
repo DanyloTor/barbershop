@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+
+Allow: /index.html
+
+Sitemap: https://www.underbarber.com.ua/sitemap.xml
